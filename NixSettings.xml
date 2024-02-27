@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<Settings>
+  <Version>27.34020</Version>
+  <Mode>partial</Mode><!--modes: strict, flexible, partial-->
+  <CustomerID>21020007</CustomerID>
+  <Server>zebramdm.42gears.com</Server>
+  <UnattendedRemoteSupport>true</UnattendedRemoteSupport>
+  <UnattendedLocationTracking>true</UnattendedLocationTracking>
+  <UnattendedCallLogTracking>true</UnattendedCallLogTracking>
+  <UnattendedSmsLogTracking>true</UnattendedSmsLogTracking>
+  <DownloadNotification>true</DownloadNotification>
+  <HideStatusReason>false</HideStatusReason>
+  <PreventDeregisterAndUninstall>false</PreventDeregisterAndUninstall>
+  <AutoDismissalTimeout>10</AutoDismissalTimeout>
+  <DisableNotifications>false</DisableNotifications>
+  <TextToSpeech>false</TextToSpeech>
+  <AuthenticationPassword></AuthenticationPassword>
+  <Password PlainText="false"></Password>
+  <nixPasswordPreference>0</nixPasswordPreference>
+  <ShowMailBox>true</ShowMailBox>
+  <DeviceNameType>6</DeviceNameType>
+  <DeviceName>23102524700057</DeviceName><!-- // 1 - manual// 2 - IMEI// 3 - System Generated // 4 - MAC // 5 - PHONENUMBER-->
+  <ConnectionSettings>
+    <ConnectionType>0</ConnectionType>
+    <RestartConnectionTimeout>0</RestartConnectionTimeout>
+  </ConnectionSettings>
+  <ScheduledRebootEnabled>false</ScheduledRebootEnabled>
+  <ScheduledRebootTime>2300</ScheduledRebootTime>
+  <ScheduledRebootDays>
+    <Days>SUNDAY</Days>
+    <Days>MONDAY</Days>
+    <Days>TUESDAY</Days>
+    <Days>WEDNESDAY</Days>
+    <Days>THURSDAY</Days>
+    <Days>FRIDAY</Days>
+    <Days>SATURDAY</Days>
+  </ScheduledRebootDays>
+  <!-- <EnableAdmin>false</EnableAdmin> --><!--If EnableAdmin is true ,SureMDM Agent will not ask for Activating admin on first launch and KNOX features will not be enabled.Remove comment to use this option-->
+  <RegPref>macimeiimsiserialguid</RegPref><!--mac(only MAC) imei(only IMEI) imsi(only imsi) , macimei (both mac and imei), androidid(for android id only), serial(for serial only),guid(for guid only)-->
+  <GroupPath>Home/Enoc</GroupPath><!-- GroupPath should always start with Home-->
+  <ResetData>True</ResetData>
+  <keepCPUOn>false</keepCPUOn>
+  <keepAliveUserSetting>300</keepAliveUserSetting>
+  <useOldKnoxActivation>false</useOldKnoxActivation>
+  <EnableLogging>true</EnableLogging>
+  <disableReplyButton>false</disableReplyButton>
+  <disableCloseButton>false</disableCloseButton>
+  <!-- <ForceEnableKNOX>false</ForceEnableKNOX> -->
+  <preferMobileData>false</preferMobileData>
+  <AppLockPin>NT8FJB9P2RNP3KS5CAMHCTHN70ZX</AppLockPin>
+  <startNixServiceAsForeground>true</startNixServiceAsForeground>
+  <floatingKillBackgroundApps>false</floatingKillBackgroundApps>
+  <killBackgroundAppsFloatingButtonIconPath></killBackgroundAppsFloatingButtonIconPath>
+  <DisableKioskMode>false</DisableKioskMode>
+  <Polling>
+    <PollingType>5</PollingType>
+    <PeriodicPollingInterval>0</PeriodicPollingInterval>
+  </Polling>
+  <permissionCheckList>
+    <exportCheckListKey>false</exportCheckListKey>
+  </permissionCheckList>
+  <!-- <WifiSettings>
+    <ClearSavedNetwork>true</ClearSavedNetwork>
+    <wifi>
+      <ssid>apnname</ssid>
+      <password>apnpassword</password>
+      <securitytype>apnsecuritytype(wpa/open/wep)</securitytype>
+    </wifi>
+  </WifiSettings> -->
+</Settings>
