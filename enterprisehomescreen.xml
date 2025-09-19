@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><config>
+  <applications>
+    <application label="Enoc_testapp2" package="com.google.enterprise.webapp.x606221d81badb6a0" activity="org.chromium.webapk.shell_apk.h2o.H2OOpaqueMainActivity"/>
+    <application label="PetrK_Google" package="com.google.enterprise.webapp.xb9259e935df51621" activity="org.chromium.webapk.shell_apk.h2o.H2OOpaqueMainActivity"/>
+    <application label="OEMConfig" package="com.zebra.oemconfig.common"/>
+    <application label="OEMConfig" package="com.zebra.oemconfig.release" activity="com.zebra.oemconfig.release.MainActivity"/>
+  </applications>
+  <tools/>
+  <passwords>
+    <admin attempts="1"/>
+  </passwords>
+  <auto_launch>
+    <application delay="1" package="com.google.enterprise.webapp.x606221d81badb6a0" activity=""/>
+  </auto_launch>
+  <user_options/>
+  <preferences>
+    <usb_debugging_disabled>0</usb_debugging_disabled>
+    <recent_apps_access_disabled>1</recent_apps_access_disabled>
+    <icon_label_background_color>#00FFFFFF</icon_label_background_color>
+    <kiosk_mode_enabled>0</kiosk_mode_enabled>
+    <admin_inactivity_timeout>600</admin_inactivity_timeout>
+    <orientation/>
+    <wallpaper/>
+    <icon_label_text_color>#FFFFFFFF</icon_label_text_color>
+    <foreground_service_auto_launch_enable>1</foreground_service_auto_launch_enable>
+    <recent_apps_button_disabled>1</recent_apps_button_disabled>
+    <auto_launch_enable>1</auto_launch_enable>
+    <admin_max_attempts>1000</admin_max_attempts>
+    <system_settings_restricted>1</system_settings_restricted>
+    <fullscreen>1</fullscreen>
+    <title>LIMBURGER</title>
+    <configurable_user_options>
+      <app_icon_settings_disabled>1</app_icon_settings_disabled>
+    </configurable_user_options>
+    <wireless_info>
+      <show_ip_address>0</show_ip_address>
+      <show_mac_address>0</show_mac_address>
+      <show_bssid>0</show_bssid>
+      <show_ssid>0</show_ssid>
+      <show_scan_result>0</show_scan_result>
+    </wireless_info>
+    <screen_blanking>
+      <blanking_enabled>0</blanking_enabled>
+      <speed_threshold>10</speed_threshold>
+      <blanking_mode>1</blanking_mode>
+    </screen_blanking>
+    <apps_disabled>
+      <application package="com.google.android.googlequicksearchbox"/>
+      <application package="com.google.android.documentsui"/>
+      <application package="com.google.android.apps.docs"/>
+      <application package="com.google.android.apps.photos"/>
+      <application package="com.google.android.gm"/>
+      <application package="com.google.android.videos"/>
+      <application package="com.android.vending"/>
+      <application package="com.google.android.calendar"/>
+      <application package="com.android.contacts"/>
+      <application package="com.google.android.apps.maps"/>
+      <application package="com.google.android.keep"/>
+      <application package="com.google.android.calculator"/>
+      <application package="com.android.deskclock"/>
+      <application package="com.google.android.apps.youtube.music"/>
+      <application package="com.google.android.youtube"/>
+      <application package="com.android.inputmethod.latin"/>
+      <application package="com.symbol.fusionlogger"/>
+      <application package="org.codeaurora.dialer"/>
+      <application package="com.symbol.vod"/>
+      <application package="com.zebra.showcaseapp"/>
+    </apps_disabled>
+    <apps_enabled>
+      <application package="com.android.chrome"/>
+      <application package="com.symbol.datawedge"/>
+      <application package="com.zebra.bluetooth.settings"/>
+      <application package="com.symbol.dataanalytics"/>
+      <application package="com.symbol.zebravolumecontrol"/>
+      <application package="com.symbol.tool.stagenow"/>
+      <application package="com.android.traceur"/>
+      <application package="com.zebra.smartmu.app"/>
+      <application package="com.wavelink.velocity"/>
+      <application package="com.symbol.rxlogger"/>
+      <application package="com.zebra.licenseuiapp"/>
+      <application package="com.symbol.fusionsettings"/>
+      <application package="com.symbol.btapp"/>
+      <application package="com.symbol.batterymanager"/>
+      <application package="com.android.settings"/>
+      <application package="com.zebra.oemconfig.common"/>
+      <application package="com.google.enterprise.webapp.x606221d81badb6a0"/>
+      <application package="com.google.enterprise.webapp.xb9259e935df51621"/>
+    </apps_enabled>
+  </preferences>
+</config>
