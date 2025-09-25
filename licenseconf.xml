@@ -1,0 +1,11 @@
+﻿<wap-provisioningdoc>
+  <characteristic version="8.3" type="FileMgr">
+    <parm name="FileAction" value="1" />
+    <characteristic type="file-details">
+      <parm name="TargetAccessMethod" value="2" />
+      <parm name="TargetPathAndFileName" value="/sdcard/License_SOTI_Test.xml" />
+      <parm name="SourceAccessMethod" value="1" />
+      <parm name="SourceURI" value="&amp;#1272&amp;#127FF8J7jZ47k2sy+0tNuMSqEGlFTny6jFcUMpfcqIea1aNzP8aTsQGGF79aR+wk5ck1G4nQzVQdizkYjScMBBe7wBZ/kxr2pXVDx0uS/lOFdKrtQojBrkGfcTK3EHrPpdwzuyaMfAssRlMI2PQWlsgh4qboOWSd4ayaWvI+73oOQM2nAJdlYptyYKBBO1yL9wZMC+SllwKSmOAEJJ84nXb2c/PK/otEIB6Dc/9yoWHr/GNBEmQqx/QZyfFNtEScbX1Q5PXqceyD6MNRJKFC5a83klzvrej9OWfaSjY+/sWd8PciF98UfpI4KvsIT/5U9SFsfop5LX6fP01MJ22zNe0mQ==" />
+    </characteristic>
+  </characteristic>
+</wap-provisioningdoc>
